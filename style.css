@@ -1,0 +1,87 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: hsl(217, 54%, 11%);
+}
+
+/* typography */
+
+h2,
+strong {
+  color: white;
+}
+p,
+h4 {
+  color: hsl(215, 51%, 70%);
+
+  font-weight: 400;
+}
+h4 {
+  font-weight: 300;
+  width: 40%;
+  text-align: end;
+}
+
+h3 {
+  color: hsl(178, 100%, 50%);
+  width: 30%;
+}
+
+img {
+  border-radius: 15px;
+}
+
+/* layout */
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(216, 50%, 16%);
+  margin: auto;
+  margin-top: 10%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+@media (min-width: 675px) {
+  .container {
+    flex-direction: column;
+    width: 25%;
+    margin-top: 5%;
+  }
+}
+
+/* bottom design */
+.pricing {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 0.5px hsl(215, 51%, 70%);
+}
+.fa-ethereum,
+.fa-clock {
+  margin-right: 3%;
+}
+
+.btm {
+  display: flex;
+  align-items: center;
+}
+
+.pic-avatar {
+  width: 10%;
+  margin-right: 10px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid white;
+}
